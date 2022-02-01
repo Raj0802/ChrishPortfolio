@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.dis-jus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-size: 13px;
+    font-weight: 600;
+}
+.row{
+    margin: 0px !important;
+    height: auto;
+}
+.profile{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to top left, rgb(80,163,161), rgb(131,206,127)); */
+    /* background: linear-gradient(to top left, #02aab0 , #00cdac); 38B6FF*/
+    background: linear-gradient(to top left, #00FFC9 , #38B6FF);
+}
+.profile-content{
+    width: 100%;
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    background: #fff;
+    border-radius: 8px !important;
+    border: 1px solid rgb(230, 230, 230) !important;
+    -webkit-box-shadow: 0 8px 10px -10px rgb(90, 90, 90); 
+    -moz-box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    box-shadow: 0 8px 10px -10px rgb(90, 90, 90) !important;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+.card1{
+    width: 100%;
+    height: 100%;
+}
+.card2{
+    height: 75vh;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 8px 10px -10px rgb(90, 90, 90); 
+    -moz-box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    z-index: 10;
+}
+.card2 .img-div{
+    width: 100%;
+    height: 50%;
+    background-image: radial-gradient(#00FFC9, #38B6FF);
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+.card3{
+    width: 100%;
+    height: 70vh;
+    background: #fff;
+    -webkit-box-shadow: 0 8px 10px -10px rgb(90, 90, 90); 
+    -moz-box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    z-index: 3;
+}
+.third-card{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-box-shadow: 0 8px 10px -10px rgb(90, 90, 90); 
+    -moz-box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    box-shadow: 0 8px 10px -10px rgb(90, 90, 90);
+    transition: 0.5s ease-in-out;
+}
+.fas, .fab, .far-i{
+    font-size: 1.6rem;
+    color: #38B6FF !important;
+    transition: 0.2s ease-in-out;
+}
+.fas:hover{
+    color: #00FFC9 !important;
+    transition: 0.2s ease-in-out;
+}
+.card-icon{
+    font-size: 1.2rem;
+    color: #38B6FF !important;
+    transition: 0.2s ease-in-out;
+}
+.icon{
+    display: block;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.res-nav{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.dev{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.dwn:hover{
+    color: #00cdac !important;
+    cursor: pointer;
+}
+.content-div span{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.scroll-div{
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background: #fff;
+    scrollbar-width: none !important;
+}
+.scroll-div::-webkit-scrollbar {
+    display: none;
+  }
+
+.scroll-div h4{
+    font-size: 26px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.scroll-div p{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.ans{
+    margin-left: 0.8rem;
+    color: #000;
+}
+.personal{
+    color: #38B6FF;
+    font-weight: 600;
+    overflow-wrap: break-word;
+}
+.head-nav{
+    display: none;
+}
+.resume h5, h6, .sec-row h5{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.resume p, .sec-row p{
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: rgb(172, 172, 172);
+}
+.progress{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 80%;
+}
+.knowledge, .projects ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.knowledge li{
+    display: inline-block;
+    background-color: #04b4e0;
+    border-radius: 3px;
+    color: #fff;
+    padding: 1px 10px;
+    margin: 3px 2px;
+    font-size: 13px;
+}
+.projects ul li{
+    display: inline-block;
+    padding: 1px 10px;
+    margin: 3px 2px;
+    font-size: 13px;
+}
+.cat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.project-card{
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    z-index: 10;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.contact-card {
+    width: 90%;
+    height: 120px;
+    border-radius: 5px;
+    flex-direction: column;
+    border: 1px solid rgb(224, 224, 224);
+}
+.contact-sub-card {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    flex-direction: column;
+    border: 1px solid rgb(224, 224, 224);
+}
+.how{
+    color: #38B6FF !important;
+}
+.contact-card h5{
+    font-size: 13px;
+    color: rgb(107, 107, 107);
+}
+.project-card h6{
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: rgb(148, 148, 148);
+    z-index: 5;
+}
+.project-card-img{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+.project-card-img img{
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    z-index: 5 !important;
+    transition: 0.3s ease-in-out;
+}
+.project-card img:hover{
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    transition: 0.3s ease-in-out;
+}
+.add{
+    width: 100% !important;
+}
+@media screen and (max-width: 321px){
+    .icon{
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+    .fas, .fab, .far-i{
+        font-size: 1.4rem;
+        padding: 8px 12px !important;
+        color: #00cdac !important;
+        transition: 0.2s ease-in-out;    
+    }
+    .name{
+        font-size: 16px;
+    }
+    .dev{
+        font-size: 12px;
+    }
+    .nav-icon{
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 8px 16px !important;
+    }
+    .mob, .card1{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .content-div{
+        height: 45%;
+    }
+    .img-div{
+        height: 55%;
+        background-image: radial-gradient(#00FFC9, #38B6FF);
+    }
+    .content-div span{
+        position: absolute;
+        font-size: 9px;
+        font-weight: 400 !important;
+        font-family: 'Poppins';
+        bottom: 0;
+        left: 80px;
+    }
+    .personal p{
+        overflow-wrap: break-word;
+    }
+    .display p{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 576px){
+    .profile{
+        margin: 1rem 0px;
+        height: auto;
+        overflow-y: auto;
+    }
+    .card{
+        margin: 8px 0px;
+    }
+    .icon{
+        display: inline-block;
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+        margin: 10px 0px !important;
+    }
+    .card2 .img-div{
+        width: 100%;
+        height: 60%;
+        background-image: radial-gradient(#00FFC9, #38B6FF);
+    }
+    .third-card{
+        border-radius: 0.5rem !important;
+    }
+    .res-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-card{
+        border-radius: 0.25rem;
+    }
+    .name{
+        font-size: 20px !important;
+    }
+    .dev{
+        font-size: 16px;
+    }
+    .nav-icon{
+        display: block;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 8px 16px !important;
+    }
+    .mob, .card1{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .content-div{
+        height: 45%;
+    }
+    .img-div{
+        height: 55%;
+        background-image: radial-gradient(#00FFC9, #38B6FF);
+    }
+    .content-div p, .content-div button{
+        margin: 16px 0px !important;
+    }
+    .scroll-div h4{
+        margin: 24px 0px !important;
+    }
+    .head-nav{
+        display: flex;
+    }
+    .scroll-div .sec-row{
+        margin: 0px 0px !important;
+    }
+    .sec-row h4{
+        margin: 20px 0px !important;
+    }
+    .sec-row p{
+        margin-bottom: 20px !important;
+    }
+    .scroll-div .sec-row .col-12, .projects ul{
+        margin: 0px 0px !important;
+    }
+    .scroll-div p span{
+        padding: 0px 16px !important;
+    }
+    .display p{
+        margin-bottom: 0px;
+    }
+    .dis-jus, .progress{
+        width: 100%;
+    }
+    .skills{
+        padding-bottom: 35px;
+    }
+    .cat{
+        display: block;
+    }
+    .project-card{
+        margin-top: 20px;
+    }
+    .scroll-div h4, .scroll-div ul{
+        position: sticky;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 15px 0px !important;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background: #fff;
+    }
+    .scroll-div ul{
+        top: 45px !important;
+    }
+    .contact-card {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .icon{
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .icon{
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+    .personal p{
+        overflow-wrap: break-word;
+    }
+    .scroll-div p span{
+        margin: 0px 0px !important;
+        font-size: 14px !important;
+    }
+}
